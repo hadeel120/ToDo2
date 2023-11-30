@@ -61,7 +61,7 @@ public class TaskAdapter extends ArrayAdapter<Task> {
             }
 
             if (dueDateTimeView != null) {
-                dueDateTimeView.setText("Due Date: " + task.getTimeDate());
+                dueDateTimeView.setText("Due Time OR Date: " + task.getTimeDate());
             }
 
             if (statusTextView != null) {
